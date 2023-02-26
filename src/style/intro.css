@@ -1,0 +1,10 @@
+h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.introduction {
+  width: 500px;
+  line-height: 27px;
+  color: var(--light-slate);
+}
