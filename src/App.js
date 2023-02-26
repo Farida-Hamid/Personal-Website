@@ -1,9 +1,18 @@
 import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import Contact from './components/Contact';
+import Intro from './components/Intro';
 
-function App() {
+const App  = () => {
   return (
     <div className="App">
-      <h1>Farida's Website!</h1>
+      <Header />
+      <main>
+        <Intro />
+        <About />
+        <Contact />
+      </main>
     </div>
   );
 }
