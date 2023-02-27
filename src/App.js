@@ -10,8 +10,10 @@ const App  = () => {
       <Header />
       <main>
         <Intro />
-        <About />
-        <Contact />
+        <section className='content'>
+          <About />
+          <Contact />
+        </section>
       </main>
     </>
   );
