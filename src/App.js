@@ -6,14 +6,14 @@ import Intro from './components/Intro';
 
 const App  = () => {
   return (
-    <div className="App">
+    <>
       <Header />
       <main>
         <Intro />
         <About />
         <Contact />
       </main>
-    </div>
+    </>
   );
 }
 
