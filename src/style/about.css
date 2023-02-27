@@ -12,3 +12,7 @@ li {
   display: flex;
   gap: 15px;
 }
+
+.about{
+  display: flex;
+}
