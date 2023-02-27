@@ -10,6 +10,11 @@
   --lightest-navy: #233554;
 }
 
+p {
+  line-height: 27px;
+  color: var(--slate);
+}
+
 body {
   background-color: var(--basic-background);
   font-family: 'Overpass', sans-serif;
@@ -40,7 +45,7 @@ main {
 }
 
 .title hr {
-  width: 50%;
+  width: 70%;
   height: 0;
   margin-left: 20px;
   border-color: var(--lightest-navy);

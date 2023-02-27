@@ -1,11 +1,8 @@
 h1 {
-  /* font-size: 60px; */
   font-size: clamp(40px, 8vw, 60px);
   margin: 20px 0;
 }
 
 .introduction {
   width: clamp(70px, 60vw, 500px);
-  line-height: 27px;
-  color: var(--light-slate);
 }

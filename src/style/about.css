@@ -1,0 +1,14 @@
+ul {
+  margin: 0.75em 0;
+  padding: 0 1em;
+  list-style: none;
+  color: var(--slate);
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+li {
+  display: flex;
+  gap: 15px;
+}
