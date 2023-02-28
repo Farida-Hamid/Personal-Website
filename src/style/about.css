@@ -15,4 +15,10 @@ li {
 
 .about{
   display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.photo {
+  width: 300px;
 }
