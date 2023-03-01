@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCard = ({ name, description, tech, liveLink, githubLink, image }) => {
 
   return (
-    <div className="project-card" style={{color: "var(--slate)"}}>
+    <div className="project-card" >
       <img className="screenshot" src={image} alt="screenshot" />
       
       <div>
