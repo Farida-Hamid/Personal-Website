@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
+
 import '../style/contact.css';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_wnl636b', 'template_dsv3dyq', form.current, 'TLsq3yXqPwD3sRmYG')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <>
       {/* <h2 className="title">
@@ -18,6 +33,13 @@ const Contact = () => {
           Whether you have a question or just want to say hi, I would love to have a 
           conversation!</p>
       </div>
+
+      <form ref={form} onSubmit={sendEmail}>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+    </form>
     </>
   )
 }
