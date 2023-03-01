@@ -9,8 +9,26 @@
   padding: 5% 0;
 }
 
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 3% 0;
+  border: 2px solid var(--green);
+  border-radius: 4px;
+  background-color: var(--basic-background);
+  color: var(--lightest-slate);
+}
+
 @media (min-width: 1200px){
   .call {
     width: 60%;
+  }
+}
+
+@media (min-width: 800px){
+  form {
+    width: 60%;
+    margin: auto;
+    text-align: center;
   }
 }

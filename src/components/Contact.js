@@ -19,12 +19,6 @@ const Contact = () => {
 
   return (
     <>
-      {/* <h2 className="title">
-        <div className="robotic"></div>
-        Contact
-        <hr></hr>
-      </h2> */}
-
       <div className="call">
         <p className="robotic">03. What’s Next?</p>
         <h1 className="contact-title">Get In Touch</h1>
@@ -35,11 +29,23 @@ const Contact = () => {
       </div>
 
       <form ref={form} onSubmit={sendEmail}>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-    </form>
+        <input
+          type="text"
+          name="name" 
+          placeholder="Your Name"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+        />
+        <input
+          type="text"
+          name="message" 
+          placeholder="Write me a message"
+        />
+        <button className="action" type="submit" >Send</button>
+      </form>
     </>
   )
 }

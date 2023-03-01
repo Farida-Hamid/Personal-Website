@@ -57,3 +57,12 @@ ul {
   margin-left: 20px;
   border-color: var(--lightest-navy);
 }
+
+.action {
+  border: 1px solid var(--green);
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: var(--green);
+  text-decoration: none;
+  background-color: inherit;
+}
