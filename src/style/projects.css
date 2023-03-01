@@ -12,6 +12,21 @@
 .tech {
   display: flex;
   gap: 3%;
+  flex-wrap: wrap;
+}
+
+.project-card a {
+  border: 1px solid var(--green);
+  border-radius: 10%;
+  padding: 3%;
+  color: var(--green);
+  text-decoration: none;
+}
+
+.links {
+  display:flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 @media (min-width: 820px){
@@ -19,8 +34,14 @@
     display: flex;
     gap: 3%;
   }
+
   .screenshot {
     width: 40%;
     margin: auto;
+  }
+
+  .links {
+    justify-content: flex-end;
+    gap: 20px;
   }
 }

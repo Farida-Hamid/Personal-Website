@@ -6,7 +6,7 @@ const ProjectCard = ({ name, description, tech, liveLink, githubLink, image }) =
     <div className="project-card" style={{color: "var(--slate)"}}>
       <img className="screenshot" src={image} alt="screenshot" />
       
-      <div className="project-info">
+      <div>
         <h2 style={{color: "var(--lightest-slate)"}}>{name}</h2>
         <p>{description}</p>
 
@@ -16,8 +16,10 @@ const ProjectCard = ({ name, description, tech, liveLink, githubLink, image }) =
           ))}
         </ul>
 
-        <a href={liveLink} >Live</a><br/>
-        <a href={githubLink} >Github</a>
+        <div className="links">
+          <a href={liveLink} >Live</a><br/>
+          <a href={githubLink} >Github</a>
+        </div>
       </div>
     </div>
   )
