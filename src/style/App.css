@@ -25,6 +25,13 @@ main {
   margin: 15% auto;
 }
 
+ul {
+  margin: 0.75em 0;
+  padding: 0 1em;
+  list-style: none;
+  color: var(--slate);
+}
+
 .robotic {
   font-family: 'Courier New', Courier, monospace;
   color: var(--green);
