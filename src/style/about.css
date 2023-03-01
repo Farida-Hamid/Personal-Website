@@ -3,12 +3,15 @@ ul {
   padding: 0 1em;
   list-style: none;
   color: var(--slate);
+}
+
+.about ul {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
 }
 
-li {
+.about li {
   display: flex;
   gap: 15px;
 }
