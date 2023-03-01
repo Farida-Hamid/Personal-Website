@@ -11,7 +11,7 @@ const Projects = () => {
     tech: ["HTML", "Javascript", "CSS", "Webpack", "Jest", "NPM"],
     liveLink: "https://farida-hamid.github.io/Muvi-WebApp/",
     githubLink: "https://farida-hamid.github.io/Muvi-WebApp/",
-    image: 'https://i0.wp.com/www.tipsnepal.com/wp-content/uploads/2020/09/German_maple_Violin-scaled.jpeg?fit=703%2C768&quality=100&strip=all&ssl=1',
+    image: 'https://github.com/Farida-Hamid/Personal-Website/blob/dev/src/style/assets/project1.png?raw=true',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const Projects = () => {
     tech: ["HTML", "Javascript", "CSS", "Webpack", "Jest", "NPM"],
     liveLink: "https://farida-hamid.github.io/Muvi-WebApp/",
     githubLink: "https://farida-hamid.github.io/Muvi-WebApp/",
-    image: 'https://i0.wp.com/www.tipsnepal.com/wp-content/uploads/2020/09/German_maple_Violin-scaled.jpeg?fit=703%2C768&quality=100&strip=all&ssl=1',
+    image: 'https://github.com/Farida-Hamid/Personal-Website/blob/dev/src/style/assets/project1.png?raw=true',
   }, 
   {
     id: 3,
@@ -29,7 +29,7 @@ const Projects = () => {
     tech: ["HTML", "Javascript", "CSS", "Webpack", "Jest", "NPM"],
     liveLink: "https://farida-hamid.github.io/Muvi-WebApp/",
     githubLink: "https://farida-hamid.github.io/Muvi-WebApp/",
-    image: 'https://i0.wp.com/www.tipsnepal.com/wp-content/uploads/2020/09/German_maple_Violin-scaled.jpeg?fit=703%2C768&quality=100&strip=all&ssl=1',
+    image: 'https://github.com/Farida-Hamid/Personal-Website/blob/dev/src/style/assets/project1.png?raw=true',
   }];
 
     return (
