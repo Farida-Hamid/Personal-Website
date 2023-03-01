@@ -34,7 +34,7 @@
 @media (min-width: 820px){
   .project-card {
     display: flex;
-    gap: 3%;
+    gap: 7%;
   }
 
   .screenshot {
