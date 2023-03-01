@@ -15,6 +15,14 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+
+    clear();
+  };
+
+  const clear = () => {
+    for(let i =0; i<3;i++){
+      form.current[i].value = "";
+    }
   };
 
   return (
