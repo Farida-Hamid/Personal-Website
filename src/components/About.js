@@ -8,7 +8,7 @@ const About = () => {
       <div className="left">
         <h2 className="title">
           <div className="robotic">01.</div>
-          About me
+          <div style={{width: "200px"}} >About me</div>
           <hr></hr>
         </h2>
         <p>Hi, I’m Farida, a Full-Stack Developer who graduated from Microverse. In this 
