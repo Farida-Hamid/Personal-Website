@@ -1,0 +1,10 @@
+.project-card {
+  background-color: var(--lightest-navy);
+  padding: 5%;
+  margin-top: 7%;
+}
+
+.screenshot {
+  width: 90%;
+  margin: auto;
+}

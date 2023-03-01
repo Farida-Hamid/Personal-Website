@@ -1,15 +1,16 @@
 import React from "react";
 
-const ProjectCard = ({ id, name, description, tech, liveLink, githubLink }) => {
+const ProjectCard = ({ id, name, description, tech, liveLink, githubLink, image }) => {
 
   return (
-    <div style={{color: "var(--lightest-slate)"}}>
-      <h2>{name} {id}</h2>
+    <div className="project-card" style={{color: "var(--slate)"}}>
+      <img className="screenshot" src={image} alt="screenshot" />
+      <h2 style={{color: "var(--lightest-slate)"}}>{name}</h2>
       <p>{description}</p>
-      
-      <ul>
+
+      <ul className="robotic">
         {tech.map ((item, index) => (
-          <li key={index}> <div className="robotic">▷</div> {item}</li>
+          <li key={index}>{item}</li>
         ))}
       </ul>
 
