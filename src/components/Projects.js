@@ -33,8 +33,9 @@ const Projects = () => {
   }];
 
     return (
-      <div id="projects">
-        <h2 className="title">
+      <>
+        {/* <div style={{padding: "100%"}}></div> */}
+        <h2 className="title" id="projects">
           <div className="robotic">02.</div>
           Projects
           <hr></hr>
@@ -53,7 +54,7 @@ const Projects = () => {
             image={project.image}         
           />
         ))}
-      </div>
+      </>
     );
 };
 
