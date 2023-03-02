@@ -6,7 +6,7 @@ import TwitterIcon from './Twitter';
 const Social = () => {
   
   return (
-    <>
+    <div className='social'>
       <a href='https://github.com/Farida-Hamid' target="_blank" rel="noreferrer" >
         <GitHubIcon />
       </a>
@@ -16,8 +16,7 @@ const Social = () => {
       <a href='https://twitter.com/FaridaHOHA' target="_blank" rel="noreferrer" >
         <TwitterIcon />
       </a>
-
-    </>
+    </div>
 )};
 
 export default Social;
