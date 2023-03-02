@@ -10,7 +10,7 @@ const Projects = () => {
     description: "This project is a web app about Movies, we fetched all data from TMBD API, Users can like movies and also give a comment. All data are recorded in the involvement API and also displayed on the screen.",
     tech: ["HTML", "Javascript", "CSS", "Webpack", "Jest", "NPM"],
     liveLink: "https://farida-hamid.github.io/Muvi-WebApp/",
-    githubLink: "https://farida-hamid.github.io/Muvi-WebApp/",
+    githubLink: "https://github.com/Farida-Hamid/Muvi-WebApp",
     image: 'https://github.com/Farida-Hamid/Personal-Website/blob/dev/src/style/assets/project1.png?raw=true',
   },
   {
@@ -27,7 +27,7 @@ const Projects = () => {
   name: 'Money Monitor',
   description: "This is a Ruby on Rails Mobile Web Application that allows the user to register and log in, so that the data is private to them. introduce new transactions associated with a category. see the money spent on each category.",
   tech: ["Ruby", "Rails", "CSS", "RSPEC", "PostgreSQL"],
-  liveLink: "https://budget-app-r0dc.onrender.com/users/user_id/groups",
+  liveLink: "https://budget-app-r0dc.onrender.com",
   githubLink: "https://github.com/Farida-Hamid/BudgetApp-rails",
   image: 'https://github.com/Farida-Hamid/Personal-Website/blob/dev/src/style/assets/project3.png?raw=true',
   },
