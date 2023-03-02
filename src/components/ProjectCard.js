@@ -17,8 +17,8 @@ const ProjectCard = ({ name, description, tech, liveLink, githubLink, image }) =
         </ul>
 
         <div className="links">
-          <a className="action" href={liveLink} target="_blank" >Live</a><br/>
-          <a className="action" href={githubLink} target="_blank" >Github</a>
+          <a className="action" href={liveLink} target="_blank" rel="noreferrer">Live</a><br/>
+          <a className="action" href={githubLink} target="_blank" rel="noreferrer">Github</a>
         </div>
       </div>
     </div>
