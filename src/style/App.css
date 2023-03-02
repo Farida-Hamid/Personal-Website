@@ -64,6 +64,9 @@ ul {
   border-radius: 5px;
   padding: 10px 25px;
   color: var(--green);
-  text-decoration: none;
   background-color: inherit;
+}
+
+a {
+  text-decoration: none;
 }
