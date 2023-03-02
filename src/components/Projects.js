@@ -34,7 +34,6 @@ const Projects = () => {
 
     return (
       <>
-        {/* <div style={{padding: "100%"}}></div> */}
         <h2 className="title" id="projects">
           <div className="robotic">02.</div>
           Projects

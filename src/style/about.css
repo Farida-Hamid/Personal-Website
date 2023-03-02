@@ -16,6 +16,10 @@
   display: block;
 }
 
+.about {
+  padding-top: 1%;
+}
+
 @media (min-width: 1200px){
   .about{
     display: flex;
