@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import Social from "./icons/Social";
 
 import '../style/contact.css';
 
@@ -30,12 +31,12 @@ const Contact = () => {
       <div className="call">
         <p className="robotic">03. What’s Next?</p>
         <h1 className="contact-title">Get In Touch</h1>
-        <p>I’m not currently looking for any new opportunities, my inbox is
-          always open.
-          Whether you have a question or just want to say hi, I would love to have a 
-          conversation!</p>
+        <p>I’m currently looking for new opportunities; my inbox is always open. Whether 
+        you have a question or just want to say hi, I would love to have a conversation!</p>
       </div>
 
+      <Social />
+      
       <form ref={form} onSubmit={sendEmail}>
         <input
           type="text"

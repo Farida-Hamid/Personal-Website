@@ -19,6 +19,11 @@ input {
   color: var(--lightest-slate);
 }
 
+.social-icon {
+  height: 30px;
+  color: var(--slate);
+}
+
 @media (min-width: 1200px){
   .call {
     width: 60%;
