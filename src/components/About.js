@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="left">
-        <h2 className="title">
+        <h2 className="title" id="about">
           <div className="robotic">01.</div>
           <div style={{width: "200px"}} >About me</div>
           <hr></hr>

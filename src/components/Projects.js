@@ -33,7 +33,7 @@ const Projects = () => {
   }];
 
     return (
-      <>
+      <div id="projects">
         <h2 className="title">
           <div className="robotic">02.</div>
           Projects
@@ -53,7 +53,7 @@ const Projects = () => {
             image={project.image}         
           />
         ))}
-      </>
+      </div>
     );
 };
 
