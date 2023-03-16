@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <nav className="header">
-      <a href="/"><div className="logo">ⓕ</div></a>
+      <a href="/"><div className="logo">&#68316;</div></a>
       
       <div className="nav">
         <a
