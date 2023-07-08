@@ -11,7 +11,8 @@ const About = () => {
           <div style={{width: "200px"}} >About me</div>
           <hr></hr>
         </h2>
-        <p>Hi, I’m Farida, a Full-Stack Developer who graduated from Microverse. In this
+        <p>Hi, I’m Farida, a Software Engineer who graduated from 
+        <a href="https://www.microverse.org">Microverse</a>. In this
          remote software development program, we learn by collaborating with developers
          from around the globe. Also, I’m a Mentor at Udacity, helping Artificial
          Intelligence students by reviewing projects and answering questions.<br/><br/>
@@ -27,7 +28,7 @@ const About = () => {
           <li> <div className="robotic">▷</div> JavaScript (ES6+)</li>
           <li> <div className="robotic">▷</div> Ruby</li>
           <li> <div className="robotic">▷</div> Ruby on Rails</li>
-          <li> <div className="robotic">▷</div> python</li>
+          <li> <div className="robotic">▷</div> Python</li>
           <li> <div className="robotic">▷</div> HTML5</li>
           <li> <div className="robotic">▷</div> CSS3</li>
           <li> <div className="robotic">▷</div> React</li>
