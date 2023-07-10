@@ -12,7 +12,7 @@ const About = () => {
           <hr></hr>
         </h2>
         <p>Hi, I’m Farida, a Software Engineer who graduated from 
-        <a href="https://www.microverse.org">Microverse</a>. In this
+        <a style={{color: "var(--green)"}} href="https://www.microverse.org"> Microverse</a>. In this
          remote software development program, we learn by collaborating with developers
          from around the globe. Also, I’m a Mentor at Udacity, helping Artificial
          Intelligence students by reviewing projects and answering questions.<br/><br/>
