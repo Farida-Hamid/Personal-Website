@@ -37,6 +37,7 @@ const About = () => {
       </div>
       <div className="right">
         <div className="wrapper">
+          <div className="frame"></div>
           <img className="photo" src={personalPic} alt="Headshot" />
           <div className="overlay"></div>
         </div>
