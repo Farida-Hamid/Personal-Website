@@ -36,7 +36,10 @@ const About = () => {
         </ul>
       </div>
       <div className="right">
-        <img className="photo" src={personalPic} alt="Headshot" />
+        <div className="wrapper">
+          <img className="photo" src={personalPic} alt="Headshot" />
+          <div className="overlay"></div>
+        </div>
       </div>
     </div>
   )

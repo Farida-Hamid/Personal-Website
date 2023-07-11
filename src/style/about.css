@@ -11,9 +11,38 @@
 
 .photo {
   width: 300px;
-  padding: 5%;
+  /* padding: 5%; */
   margin: auto;
-  display: block;
+  /* display: block; */
+}
+
+.right {
+  width: fit-content;
+  height: 100%;
+  margin: auto;
+}
+
+.wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #64ffda;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.overlay:hover {
+  opacity: 0;
 }
 
 .about {
@@ -27,3 +56,5 @@
     gap: 10%;
   }
 }
+
+/* right => wraper  wraper => image */
