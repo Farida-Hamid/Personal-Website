@@ -12,13 +12,17 @@
 .photo {
   width: 300px;
   border-radius: 4px;
+  /* filter: grayscale(50%); */
 }
+
+/* .photo:hover {
+  filter:unset;
+} */
 
 .right {
   width: fit-content;
   height: 100%;
   margin: auto;
-  /* padding: 5%; */
 }
 
 .wrapper {
