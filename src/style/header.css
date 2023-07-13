@@ -45,7 +45,7 @@ nav {
 @media (max-width: 600px){
 
   header {
-    padding: 5%;
+    padding: 3%;
   }
 
   /* .header-container {
@@ -74,7 +74,8 @@ nav {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 1.5rem;
+		gap: 3rem;
+    font-size: x-large;
 		background-color: var(--lightest-navy);
 		transition: 1s;
   }
