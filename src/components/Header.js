@@ -9,10 +9,9 @@ const Header = () => {
   };
 
   return (
-    <nav className="header">
+    <header>
       <a href="/"><div className="logo">&#68316;</div></a>
-      
-      <div className="nav">
+      <nav>
         <a
          onClick={() => scroll('.about')}
          className="header-list"
@@ -32,8 +31,8 @@ const Header = () => {
          >
          <div className="robotic">3.0</div>
          Contacts</a>
-      </div>
-    </nav>
+      </nav>
+    </header>
   )
 }
 

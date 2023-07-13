@@ -1,4 +1,4 @@
-.header{
+header{
   color: var(--light-slate);
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,11 @@
   gap: 5px;
 }
 
-.nav {
+.header-list:hover {
+  color: var(--green);
+} 
+
+nav {
   display: flex;
   gap: 25px;
   scroll-behavior: smooth;
@@ -28,12 +32,37 @@
   font-size: xx-large;
 }
 
+.nav-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: var(--light-slate);
+  font-size: larger;
+  visibility: hidden;
+} 
+
+.nav-btn:hover {
+  color: var(--green);
+} 
+
 @media (max-width: 500px){
-  .logo{
+  /* .logo{
     display: none;
+  } */
+
+  header {
+    padding: 5%;
   }
 
-  .header {
-    padding: 5%;
+  .nav-btn {
+    visibility: visible;
+  } 
+
+  nav {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
   }
 }
