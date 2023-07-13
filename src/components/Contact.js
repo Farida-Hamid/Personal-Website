@@ -34,7 +34,7 @@ const Contact = () => {
         <p>I’m currently looking for new opportunities; my inbox is always open. Whether 
         you have a question or just want to say hi, I would love to have a conversation!</p>
         
-        <Social />
+        <div className="social-container"><Social /></div>
       </div>
 
       
