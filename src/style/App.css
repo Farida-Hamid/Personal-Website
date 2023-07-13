@@ -26,7 +26,7 @@ body {
 
 main {
   width: 80%;
-  margin: 15% auto;
+  margin: 15% auto 5% auto;
   max-width: 1000px;
   /* scroll-behavior: smooth; */
 }
@@ -46,7 +46,7 @@ ul {
 
 .content {
   width: 90%;
-  margin: 30% auto;
+  margin: 30% auto 0 auto;
 }
 
 .title {
