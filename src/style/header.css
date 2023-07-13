@@ -8,6 +8,7 @@
   top: 0;
   width: 93%;
   background-color: var(--basic-background);
+  z-index: 1;
 }
 
 .header-list {
@@ -18,7 +19,7 @@
 .nav {
   display: flex;
   gap: 25px;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 .logo {
