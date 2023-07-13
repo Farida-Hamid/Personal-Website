@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useRef } from "react";
 import "../style/header.css";
 
 const Header = () => {
@@ -11,7 +11,11 @@ const Header = () => {
   return (
     <header>
       <a href="/"><div className="logo">&#68316;</div></a>
+
+      <button className="nav-btn" onClick={showNavBar}>&#12692;</button>
+
       <nav>
+        <button className="nav-btn nav-close-button" onClick={showNavBar}>&#10005;</button>
         <a
          onClick={() => scroll('.about')}
          className="header-list"
