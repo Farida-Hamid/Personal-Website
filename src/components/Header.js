@@ -23,27 +23,30 @@ const Header = () => {
       <button className="nav-btn" onClick={showNavbar}>&#12692;</button>
 
       <nav ref={navRef}>
-        <button className="nav-btn nav-close-button" onClick={showNavbar}>&#10005;</button>
-        <a
-         onClick={() => scroll('.about')}
-         className="header-list"
-         >
-         <div className="robotic">1.0</div>
-         About Me</a>
-        <a
-         onClick={() => scroll('#projects')}
-         className="header-list"
-         >
-         <div className="robotic">2.0</div>
-         Projects
-         </a>
-        <a
-         onClick={() => scroll('.call')}
-         className="header-list"
-         >
-         <div className="robotic">3.0</div>
-         Contacts</a>
-      </nav>
+        {/* <div className="header-container"> */}
+
+          <button className="nav-btn nav-close-btn" onClick={showNavbar}>&#10005;</button>
+          <a
+          onClick={() => scroll('.about')}
+          className="header-list"
+          >
+          <div className="robotic">1.0</div>
+          About Me</a>
+          <a
+          onClick={() => scroll('#projects')}
+          className="header-list"
+          >
+          <div className="robotic">2.0</div>
+          Projects
+          </a>
+          <a
+          onClick={() => scroll('.call')}
+          className="header-list"
+          >
+          <div className="robotic">3.0</div>
+          Contacts</a>
+        {/* </div> */}
+    </nav>
     </header>
   )
 }
