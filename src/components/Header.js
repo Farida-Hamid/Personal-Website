@@ -3,6 +3,12 @@ import React, { useRef } from "react";
 import "../style/header.css";
 
 const Header = () => {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+		navRef.current.classList.toggle("responsive_nav");
+	};
+
   const scroll = (element) => {
     const section = document.querySelector( element );
     section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
@@ -12,10 +18,10 @@ const Header = () => {
     <header>
       <a href="/"><div className="logo">&#68316;</div></a>
 
-      <button className="nav-btn" onClick={showNavBar}>&#12692;</button>
+      <button className="nav-btn" onClick={showNavbar}>&#12692;</button>
 
-      <nav>
-        <button className="nav-btn nav-close-button" onClick={showNavBar}>&#10005;</button>
+      <nav ref={navRef}>
+        <button className="nav-btn nav-close-button" onClick={showNavbar}>&#10005;</button>
         <a
          onClick={() => scroll('.about')}
          className="header-list"

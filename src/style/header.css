@@ -39,6 +39,7 @@ nav {
   color: var(--light-slate);
   font-size: larger;
   visibility: hidden;
+  opacity: 0;
 } 
 
 .nav-btn:hover {
@@ -46,9 +47,6 @@ nav {
 } 
 
 @media (max-width: 500px){
-  /* .logo{
-    display: none;
-  } */
 
   header {
     padding: 5%;
@@ -56,13 +54,31 @@ nav {
 
   .nav-btn {
     visibility: visible;
+		opacity: 1;
   } 
 
   nav {
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--lightest-navy);
+		transition: 1s;
   }
+
+  .nav-close-btn {
+		/* position: absolute; */
+		top: 2rem;
+		right: 2rem;
+	}
+
+  .responsive_nav {
+		transform: translateY(100vh);
+	}
 }
