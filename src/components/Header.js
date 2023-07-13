@@ -12,6 +12,8 @@ const Header = () => {
   const scroll = (element) => {
     const section = document.querySelector( element );
     section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+
+    showNavbar();
   };
 
   return (
