@@ -65,30 +65,19 @@ ul {
 }
 
 .action {
-  border: 1px solid var(--green);
+  border: 2px solid var(--green);
   border-radius: 5px;
   padding: 10px 25px;
   color: var(--green);
   background-color: inherit;
 }
 
+.action:hover, .li {
+  box-shadow: 3px 3px var(--green);
+  transition: 0.25s;
+  transform: translate(-0.25em);
+}
+
 a {
   text-decoration: none;
 }
-
-/* .overlay {
-  position: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: var(--green);
-}
-
-.right:hover .overlay {
-  opacity: 1;
-} */
