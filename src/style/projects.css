@@ -4,6 +4,11 @@
   margin-top: 7%;
 }
 
+.project-card:hover {
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+
 .screenshot {
   width: 90%;
   margin: auto;
