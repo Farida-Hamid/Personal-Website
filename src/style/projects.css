@@ -10,8 +10,7 @@
 }
 
 .screenshot {
-  width: 90%;
-  margin: auto;
+  width: 100%;
   display: block;
 }
 
@@ -32,10 +31,10 @@
   padding-top: 20%;
 }
 
-/* .project-card .wraper {
+.screenshot-wrapper {
   width: 90%;
   margin: auto;
-} */
+}
 
 @media (min-width: 820px){
   .project-card {
@@ -43,9 +42,9 @@
     gap: 7%;
   }
 
-  .screenshot {
-    width: 40%;
+  .screenshot-wrapper {
     margin: auto;
+    min-width: 50%;
   }
 
   .links {

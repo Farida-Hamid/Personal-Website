@@ -4,10 +4,10 @@ const ProjectCard = ({ name, description, tech, liveLink, githubLink, image }) =
 
   return (
     <div className="project-card" >
-      {/* <div className="wrapper"> */}
+      <div className="screenshot-wrapper">
         <img className="screenshot" src={image} alt="screenshot" />
-        {/* <div className="overlay"></div>
-      </div> */}
+        {/* <div className="overlay"></div> */}
+      </div>
 
       <div>
         <h2 style={{color: "var(--lightest-slate)"}}>{name}</h2>
