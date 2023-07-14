@@ -12,12 +12,8 @@
 .photo {
   width: 300px;
   border-radius: 4px;
-  /* filter: grayscale(50%); */
+  filter: grayscale(50%);
 }
-
-/* .photo:hover {
-  filter:unset;
-} */
 
 .right {
   width: fit-content;
@@ -38,10 +34,15 @@
   opacity: 0.5;
   transition: 0.5s;
   border-radius: 4px;
+  z-index: 1;
 }
 
 .overlay:hover {
   opacity: 0;
+}
+
+.overlay:hover ~ .photo {
+  filter: unset;
 }
 
 .frame {
