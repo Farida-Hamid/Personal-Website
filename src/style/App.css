@@ -75,7 +75,8 @@ ul {
 .action:hover {
   box-shadow: 3px 3px var(--green);
   transition: 0.25s;
-  transform: translate(-0.25em);
+  transform: translateX(-0.25em);
+  transform: translateY(-0.25em);
 }
 
 a {
