@@ -37,7 +37,6 @@ const Contact = () => {
         <div className="social-container"><Social /></div>
       </div>
 
-      
       <form ref={form} onSubmit={sendEmail}>
         <input
           type="text"
